@@ -20,30 +20,30 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
       <section className="center w-full hero">
         <div className={style["outerBanner"]}>
           <div className="mx-auto flex max-w-7xl items-center justify-between xl:p-5 lg:px-8 px-6 py-5">
-            <div className="w-[100%] md:w-[100%] xl:mt-[2rem] md:mt-[3rem] xl:mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[3rem] xl:py-10">
-              <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
-                <h1 className="--font-minion xl:mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+            <div className="w-[100%] md:w-[100%] xl:mt-[2rem] md:mt-[3rem] xl:mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:gap-[3rem] xl:py-10">
+              <div className="u-max-w-[480px] u-space-y-2 u-leading-tight pt-1">
+                <h1 className="text-4xl --font-minion xl:mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
                 <h1
                   style={{ color: "#0D86C1" }}
-                  className="--font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                  className="text-4xl --font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
                 >
                   {heading1}
                 </h1>
                 <h1
                   style={{ color: "#0D86C1" }}
-                  className="--font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                  className="text-4xl --font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
                 >
                   {heading2}
                 </h1>
-                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-base raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des1}
                 </p>
-                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-base raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des2}
                 </p>
-                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-base raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des3}
                 </p>
                 <div className="sm:max-w-none flex sm:flex-row sm:justify-start xl:mt-6">
@@ -78,14 +78,15 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto cm seller">
+      <section className=" container mx-auto cm seller">
         <h2 className="mt-[1.5rem] text-center text-[28px] text-black font-semibold mb-4">
           Best Seller Products
         </h2>
-        <ul className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] px-4">
+        <div id="bestseller" className="wrapperSeller">
+        <ul className=" w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] px-4">
           {bestseller.map((item, i) => (
-            <li className="bg-base-300 card mb-4" key={i}>
-              <div className="img-box">
+            <li className="cardSeller bg-base-300 card mb-4" key={i}>
+             
                 <Image
                   className="items-center w-full h-full"
                   src={item.imgseller}
@@ -93,21 +94,21 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                   height={291}
                   alt="imgseller"
                 />
-                <div className="img-caption">
-                  <ul className="box-holder">
-                    <li>title 1</li>
-                    <li>title 2</li>
-                    <li>title 3</li>
-                    <li>title 4</li>
-                  </ul>
-                </div>
+                <div class="infoSeller">
+      <h1>{item.name}</h1>
+      <ul>
+     <li> <p>Lorem Ipsum is simply </p></li>
+     <li> <p>Lorem Ipsum is simply dummy </p></li>
+     </ul>
+   
               </div>
               <h3 className={style.Cattitle}>{item.name}</h3>
             </li>
           ))}
         </ul>
+        </div>
       </section>
-<section>
+{/* <section className="container mx-auto">
 <div id="bestseller" class="wrapperSeller">
   <div class="cardSeller"><img src="/images/Black Pomfret.png"/>
     <div class="infoSeller">
@@ -135,11 +136,10 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
      <li> <p>Lorem Ipsum is simply </p></li>
      <li> <p>Lorem Ipsum is simply dummy </p></li>
      </ul>
-     
     </div>
   </div>
 </div>
-</section>
+</section> */}
       <section className={style.mapwrap}>
       
       <div className="w-full mx-auto">
@@ -148,9 +148,10 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
             </h2>
       <video src="UnicornNetwork.mp4" ref={vidRef} muted autoPlay loop className="video"/>
             </div>
+            
       </section>
 
-      <section className="w-full py-10 cm choose-sec">
+      <section className="w-full xl:py-10 cm choose-sec">
         <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
           Why Choose Us
         </h2>
@@ -162,7 +163,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
           <div className="col-span-12 lg:col-span-7 py-12" data-v-b444fb2c="">
             <div className="w-full" data-v-b444fb2c="">
               <Image
-                className="py-12 mx-auto"
+                className="xl:py-12 mx-auto"
                 src="/Why-Choose-us-Fish.png"
                 width={500}
                 height={470}

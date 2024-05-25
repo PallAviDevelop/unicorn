@@ -212,26 +212,26 @@ display: none;
 @media (min-width: 1536px) {
 }
 
+
 /* Hover overlay effect */
 
 .wrapperSeller {
-  display: flex;
-  width: 90%;
-  justify-content: space-around;
+  display: block;
+  width: 100%;
 }
 
 .cardSeller {
-  width: 280px;
-  height: 360px;
-  border-radius: 15px;
-  padding: 1.5rem;
-  background: white;
+  /* width: 280px;  */
+  /* height: 360px; */
+  /* border-radius: 15px; */
+  /* padding: 1.5rem; */
+  /* background: white; */
   position: relative;
   /* position: absolute; */
-  /* z-index: 999; */
+  z-index: 999;
   display: flex;
   align-items: flex-end;
-  transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
   box-shadow: 0px 7px 10px rgba(black, 0.5);
 }
 .cardSeller:hover {
@@ -273,11 +273,12 @@ display: none;
 #bestseller img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 15px;
+  border-radius: 5px;
   z-index: 999;
 }
 #bestseller img:hover{
@@ -293,21 +294,22 @@ display: none;
   transform: translateY(30px);
   transition: 0.5s; */
   background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    z-index: 999;
-    color: #fff;
-    /* opacity: 0; */
-    transform: translateY(30px);
-    transition: 0.5s;
-    top: 0;
-    min-height: 330px;
-    padding: 10px;
-    min-width: 257px;
-    border-radius: 20px;
-    margin: 0 auto;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  /* opacity: 0; */
+  transform: translateY(30px);
+  transition: 0.5s;
+  top: 0;
+  /* min-height: 330px; */
+  padding: 10px;
+  /* min-width: 257px; */
+  border-radius: 5px;
+  margin: 0 auto;
+  left: 0;
+  top: -37px;
+  bottom: 0;
+  right: 0;
 }
 #bestseller h1 {
   margin: 0px;
