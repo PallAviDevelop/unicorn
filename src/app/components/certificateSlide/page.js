@@ -77,6 +77,7 @@ class CertificateSlide extends Component{
       cssEase: "linear"
     };
     return(
+      
       <div className="mainContainer">
        
         <Slider {...settings}>

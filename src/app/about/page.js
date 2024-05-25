@@ -44,14 +44,14 @@ const About = () => {
               className="aos-init aos-animate"
             >
               <div className="py-6 hover:bg-white lg:translate-y-[1rem] rounded-lg transition-all duration-200">
-                <p className="mt-[1rem] text-black text-opacity-60 text-start">
+                <p className="mt-[1rem] text-gray-900 text-start">
                   At Welcome to Unicorn Seafoods, your premier destination for
                   all things seafood and aquaculture. We pride ourselves on
                   being more than just a marketplace; we're your one-stop
                   solution, connecting buyers and sellers across the globe to
                   ensure the best deals and unparalleled service standards.
                 </p>
-                <p className="mt-[1rem] text-black text-opacity-60 text-start">
+                <p className="mt-[1rem] text-gray-900 text-start">
                   Our global partnerships give us great local exposure. All our
                   raw materials are sourced from the fishing vessels,
                   Aquaculture farms and the boats directly from fishermen and
@@ -59,14 +59,14 @@ const About = () => {
                   facilities which meet the highest USA and EU standards for
                   processing and packing.
                 </p>
-                <p className="mt-[1rem] text-black text-opacity-60 text-start">
+                <p className="mt-[1rem] text-gray-900 text-start">
                   Unicorn Sea Foods has an ability to present a range of fresh
                   and frozen, high quality seafood products across the globe. It
                   is a platform which allows verified exporters and sellers to
                   upload their inventory on a regular basis, Thus creating a
                   real time inventory of seafood available globally.
                 </p>
-                <p className="mt-[1rem] text-black text-opacity-60 text-start">
+                <p className="mt-[1rem] text-gray-900 text-start">
                   Our commitment to quality, transparency, and exceptional
                   service is what sets us apart in the industry. With a team of
                   passionate professionals who get involved in every step,
@@ -93,9 +93,9 @@ const About = () => {
                 className="aos-init aos-animate"
               >
                 <div id='vission' className="py-2 text-white border-right border-gray-100">
-                  <h3 className="xl:text-4xl">Vission</h3>
+                  <h3 className="xl:text-4xl text-gray-900">Vission</h3>
                   <div className="w-[100%] md:w-[100%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
-                    <p className="mt-[1rem] text-white text-start">
+                    <p className="mt-[1rem] text-gray-900 text-start">
                       At Welcome to Unicorn Seafoods, your premier destination
                       for all things seafood and aquaculture. We pride ourselves
                       on being more than just a marketplace; we're your one-stop
@@ -119,11 +119,11 @@ const About = () => {
                 data-aos-anchor-placement="top-center"
                 className="aos-init aos-animate"
               >
-                <h3 className="--font-minion text-white xl:text-4xl">
+                <h3 className="--font-minion text-gray-900 xl:text-4xl">
                   Mission
                 </h3>
                 <div className="w-[100%] md:w-[100%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
-                  <p className="mt-[1rem] text-white text-start">
+                  <p className="mt-[1rem] text-gray-900 text-start">
                     At Welcome to Unicorn Seafoods, your premier destination for
                     all things seafood and aquaculture. We pride ourselves on
                     being more than just a marketplace; we're your one-stop
@@ -143,8 +143,8 @@ const About = () => {
           </div>
           <div className="core">
             <div className="text-center mt-[1.5rem] text-[28px] text-black font-semibold mb-4 text-white">
-              <h2>Core Value</h2>
-              <p>At Unicorn Seafoods, our values guide everything we do</p>
+              <h2 className="--font-minion mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">Core Value</h2>
+              <p className="text-gray-900">At Unicorn Seafoods, our values guide everything we do</p>
             </div>
             <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-5">
               <div className="group relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
@@ -158,10 +158,9 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-white">Quality</h5>
-                    <p className="text-white">
-                      We are committed to delivering excellence in every aspect
-                      of our business, be it sourcing, service, or experiences.
+                    <h5 className="text-xl font-semibold text-gray-900">Integrity</h5>
+                    <p className="text-gray-900">
+                    Highest ethical standards, trust, transparency in all interactions.
                     </p>
                   </div>
                 </div>
@@ -177,12 +176,11 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
-                      Sustainability
+                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    Quality
                     </h5>
-                    <p className="text-white">
-                      Dedication to sustainable practices throughout our
-                      operations to contribute positively to our planet.
+                    <p className="text-gray-900">
+                    We are committed to delivering excellence in every aspect of our business, be it sourcing, service, or experiences.
                     </p>
                   </div>
                 </div>
@@ -197,10 +195,10 @@ const About = () => {
                     alt="burger illustration"
                   />
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
-                      Sustainability
+                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    Sustainability
                     </h5>
-                    <p className="text-white">
+                    <p className="text-gray-900">
                       Dedication to sustainable practices throughout our
                       operations to contribute positively to our planet.
                     </p>
@@ -218,10 +216,10 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                       Traceability
                     </h5>
-                    <p className="text-white">
+                    <p className="text-gray-900">
                       We believe in the power of collaboration, working hard to
                       achieve mutual success for all stakeholders.
                     </p>
@@ -239,10 +237,10 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                       Customer-Centricity
                     </h5>
-                    <p className="text-white">
+                    <p className="text-gray-900">
                       Providing transparency to our customers about the origins
                       and journey of our products, fostering trust and
                       accountability.
@@ -255,8 +253,21 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto py-10">
-        <CertificateSlide />
+      <section className="container cm certificate">
+        <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+          <h2 className="--font-minion mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
+            Certifications
+          </h2>
+          <p className="raleway mt-[1rem] text-black text-opacity-60 text-center">
+            We ensure the products are certified with necessary quality
+            assurance required as per the, buying country standards. Our
+            products also undergo a thorough inspection by our local quality
+            agents.
+          </p>
+          <div>
+            <CertificateSlide />
+          </div>
+        </div>
       </section>
     </>
   );

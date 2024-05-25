@@ -207,7 +207,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
       <section className="container cm certificate">
         <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           <h2 className="--font-minion mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
-            Certificates
+          Certifications
           </h2>
           <p className="raleway mt-[1rem] text-black text-opacity-60 text-center">
             We ensure the products are certified with necessary quality

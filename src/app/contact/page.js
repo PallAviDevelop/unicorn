@@ -85,13 +85,12 @@ const Contact = () => {
                 </div>
   </section>
   <div class="container px-6 md:px-12 mx-auto">
-    <div
-      class="">
-      <div class="flex flex-wrap">
+  
+      {/* <div class="flex justify-space-around flex-row"> */}
        
-        <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-          <div class="flex flex-wrap">
-            <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
+        <div class="flex flex-row" style={{justifyContent: 'space-around'}}>
+         
+            <div class="py-10 w-[500px]">
               <div class="flex items-start">
                 <div class="shrink-0">
                   <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
@@ -115,7 +114,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
+            <div class="py-10 w-[500px]">
               <div class="flex items-start">
                 <div class="srink-0">
                   <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
@@ -137,8 +136,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div
-              class="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:mb-12 lg:w-full lg:px-6 xl:w-6/12">
+            <div class="py-10 w-[500px]">
               <div class="align-start flex">
                 <div class="shrink-0">
                   <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
@@ -157,7 +155,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:mb-12 xl:w-6/12">
+            <div class="py-10 w-[500px]">
               <div class="align-start flex">
                 <div class="shrink-0">
                   <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
@@ -179,13 +177,13 @@ const Contact = () => {
         </div>
  
     
-    </div>
+    {/* </div> */}
  
   <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
       width="100%" height="480" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
-      </div>
-  </div>
+    
+
   
  
 </section>

@@ -25,7 +25,7 @@ const company = [
   { name: "About Us", href: "/about" },
   { name: 'Vision', href: '/about/#vission', },
   { name: 'Mission', href: '/about/#mission' },
-  { name: "Quality assurance", href: "/qualitycheck" },
+  { name: "Quality Assurance", href: "/qualitycheck" },
   // { name: 'Services', href: '/services' },
   { name: "Certifications", href: "/certificates" },
 ];
@@ -83,7 +83,7 @@ export default function Header() {
 
             <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 raleway text-lg leading-6 text-gray-900">
-                <a className="relative" href="/company">
+                <a className="relative" href="#">
                   Company
                 </a>
                 <ChevronDownIcon
