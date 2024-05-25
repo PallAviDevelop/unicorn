@@ -77,7 +77,7 @@ const Qualitycheck = () => {
                 borderRadius: "50%",
               }}
               className="rounded-lg w-auto py-10 mx-auto p-10"
-              src="/images/expert 1.png"
+              src="/images/expertise.png"
               width={64}
               height={64}
               alt="logo"
@@ -95,14 +95,14 @@ const Qualitycheck = () => {
                 borderRadius: "50%",
               }}
               className="rounded-lg w-auto py-10 mx-auto p-10"
-              src="/images/quality-assurance 1.png"
+              src="/images/assurance.png"
               width={64}
               height={64}
               alt="logo"
             />
             <h3 className="raleway text-lg leading-6 text-gray-900">
-              Certified product <br />
-              standards
+            Reliable quality  <br />
+            assurance
             </h3>
           </div>
           <div>
@@ -114,14 +114,14 @@ const Qualitycheck = () => {
                 borderRadius: "50%",
               }}
               className="rounded-lg w-auto py-10 mx-auto p-10"
-              src="/images/fishQC.png"
+              src="/images/reliable.png"
               width={64}
               height={64}
               alt="logo"
             />
             <h3 className="raleway text-lg leading-6 text-gray-900">
-              Reliable quality <br />
-              assurance
+            Certified product  <br />
+            standards
             </h3>
           </div>
           <div>
@@ -133,13 +133,13 @@ const Qualitycheck = () => {
                 borderRadius: "50%",
               }}
               className="rounded-lg w-auto py-10 mx-auto p-10"
-              src="/images/quality-assurance 1.png"
+              src="/images/inspection.png"
               width={64}
               height={64}
               alt="logo"
             />
             <h3 className="raleway text-lg leading-6 text-gray-900">
-              Thorough inspection process
+            Thorough inspection process
             </h3>
           </div>
         </div>

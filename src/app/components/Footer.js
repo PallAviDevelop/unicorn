@@ -28,20 +28,18 @@ const Footer = () => {
             <Link href="products">Products</Link>
           </li>
           <li>
-            <Link href="Company">Company</Link>
+            <Link href="about">About us</Link>
           </li>
           <li>
-            <Link href="#Mission">Mission</Link>
-          </li>
-          <li>
-            <Link href="#Vission">Vission</Link>
-          </li>
-          <li>
-            <Link href="/becomeseller">Become A Seller</Link>
+            <Link href="contact">contact us</Link>
           </li>
           <li>
             <Link href="/services">Services</Link>
           </li>
+          <li>
+            <Link href="/becomeseller">Become A Seller</Link>
+          </li>
+          
         </ul>
         <ul>
           <h3 className="xl:text-2xl font-bold mb-5 mt-2">Important Links</h3>
