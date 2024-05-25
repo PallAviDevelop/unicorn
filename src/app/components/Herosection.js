@@ -112,21 +112,29 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
   <div class="cardSeller"><img src="/images/Black Pomfret.png"/>
     <div class="infoSeller">
       <h1>Mountain</h1>
-      <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-     
+      <ul>
+     <li> <p>Lorem Ipsum is simply </p></li>
+     <li> <p>Lorem Ipsum is simply dummy </p></li>
+     </ul>
     </div>
   </div>
   <div class="cardSeller"><img src="/images/Ribbon Fish.png"/>
     <div class="infoSeller">
       <h1>Road</h1>
-      <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+      <ul>
+     <li> <p>Lorem Ipsum is simply </p></li>
+     <li> <p>Lorem Ipsum is simply dummy </p></li>
+     </ul>
      
     </div>
   </div>
   <div class="cardSeller"><img src="/images/Seabass.png"/>
     <div class="infoSeller">
       <h1>Protester</h1>
-      <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+      <ul>
+     <li> <p>Lorem Ipsum is simply </p></li>
+     <li> <p>Lorem Ipsum is simply dummy </p></li>
+     </ul>
      
     </div>
   </div>
