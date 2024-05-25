@@ -158,7 +158,7 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-900">Integrity</h5>
+                    <h5 className="text-xl font-extrabold text-gray-900">Integrity</h5>
                     <p className="text-gray-900">
                     Highest ethical standards, trust, transparency in all interactions.
                     </p>
@@ -176,7 +176,7 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    <h5 className="text-xl font-extrabold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                     Quality
                     </h5>
                     <p className="text-gray-900">
@@ -195,7 +195,7 @@ const About = () => {
                     alt="burger illustration"
                   />
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    <h5 className="text-xl font-extrabold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                     Sustainability
                     </h5>
                     <p className="text-gray-900">
@@ -216,7 +216,7 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    <h5 className="text-xl font-extrabold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                       Traceability
                     </h5>
                     <p className="text-gray-900">
@@ -237,7 +237,7 @@ const About = () => {
                   />
 
                   <div className="space-y-2">
-                    <h5 className="text-xl font-semibold text-gray-700 text-gray-900 transition group-hover:text-secondary">
+                    <h5 className="text-xl font-extrabold text-gray-700 text-gray-900 transition group-hover:text-secondary">
                       Customer-Centricity
                     </h5>
                     <p className="text-gray-900">
@@ -253,7 +253,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="container cm certificate">
+      <section className="container cm certificate mx-auto">
         <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           <h2 className="--font-minion mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
             Certifications
